@@ -16,7 +16,7 @@ sudo -i
 执行初始化脚本：
 
 ```bash
-bash <(curl -fsSL https://raw.githubusercontent.com/yy162153/ubuntu-vps-init/main/init-vps.sh)
+bash <(curl -fsSL https://github.com/yy162153/ubuntu-vps-init/raw/main/init-vps.sh)
 ```
 
 脚本完成后不要立即关闭当前 SSH 窗口。请另开一个窗口，使用 `root` 用户和原来登录 `ubuntu` 的同一把私钥测试连接；确认成功后再关闭旧窗口。
